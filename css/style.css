@@ -12,7 +12,6 @@ body {
 
 header {
     flex-direction: row;
-    height: 40px;
     background-color: #3161e0;
     justify-content: space-around;
     display: flex;
@@ -29,7 +28,7 @@ h1 {
     padding-top: 40px;
     padding-bottom: 15px;
     color: white;
-    font-size: 30px;
+    font-size: 40px;
 }
 
 hr {
@@ -80,10 +79,11 @@ h3.title-tech {
 
 .intro {
     background-image: url(./../img/jumbo.png);
-    background-position: 0;
+    background-position: 0px -100px;
     background-size: cover;
     background-repeat: no-repeat;
     text-align: center;
+    padding-bottom: 200px;
 }
 
 .accedi {
@@ -98,6 +98,7 @@ h3.title-tech {
     padding-right: 30%;
     padding-bottom: 10px;
     color: white;
+    font-size: 20px;
 }
 
 .button-intro {
@@ -182,6 +183,7 @@ h3.title-tech {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-top: 50px;
 }
 
 .tech-text {
