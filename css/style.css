@@ -19,6 +19,7 @@ header {
     padding: 0.5rem 0;
 }
 
+
 footer {
     background-color: #23272a;
 }
@@ -27,6 +28,7 @@ footer {
 h1 {
     padding-top: 40px;
     padding-bottom: 15px;
+    color: white;
 }
 
 hr {
@@ -42,11 +44,27 @@ summary {
 a {
     color: white;
     text-decoration-line: none;
+    padding-top: 10px;
+}
+
+h3 {
+    padding-top: 20px;
+    background-image: url(./../img/stars.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 0 -10px;
+}
+
+.list a {
+    padding-left: 30px;
 }
 
 
 .intro {
-    background-color: #3161e0;
+    background-image: url(./../img/jumbo.png);
+    background-position: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
     text-align: center;
 }
 
@@ -61,11 +79,11 @@ a {
     padding-left: 30%;
     padding-right: 30%;
     padding-bottom: 10px;
+    color: white;
 }
 
 .button-intro {
     text-align: center;
-    background-color: #3161e0;
     padding-bottom: 100px;
 }
 
@@ -73,6 +91,7 @@ a {
     border-radius: 20px;
     padding: 8px 8px;
     border: none;
+    margin-right: 15px;
 }
 
 .open-discord {
@@ -90,46 +109,42 @@ a {
 .info {
     display: flex;
     flex-direction: column;
-    padding-right: 8%;
-    padding-left: 10%;
     align-self: center;
 }
 
 .all {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .title {
     text-align: left;
+    font-size: 20px;
 }
 
 .text {
     display: flex;
     flex-direction: column;
-    background-color: blue;
     width: 10%;
     text-align: left;
     margin-right: 55px;
+    padding-top: 30px;
 
 }
 
 .img {
     display: flex;
     flex-direction: row;
-    background-color: rgb(255, 0, 0);
-    margin-left: 55px;
-    padding: 100px 200px;
-
 }
 
 .chat {
-    margin-bottom: 100px;
+    padding-top: 100px;
 }
 
 .vocal {
-    margin-bottom: 100px;
+    margin-top: 60px;
+    padding-bottom: 100px;
     background-color: #f6f6f6;
 }
 
@@ -158,6 +173,7 @@ a {
 
 .title-tech {
     text-align: center;
+    padding-bottom: 15px;
 }
 
 .button {
@@ -170,6 +186,9 @@ a {
     border: none;
     background-color: #8ea1e1;
     color: white;
+    margin-top: 20px;
+    margin-left: 80px;
+
 }
 
 
@@ -177,8 +196,7 @@ a {
 .foot {
     display: flex;
     justify-content: center;
-
-
+    padding-top: 50px;
 }
 
 .title-social {
@@ -240,4 +258,11 @@ a {
     flex-direction: row;
     justify-content: space-around;
     padding-bottom: 60px;
+    padding-top: 20px;
+}
+
+
+.it {
+    width: 15%;
+    height: 15%;
 }
