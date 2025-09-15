@@ -62,9 +62,11 @@ strong {
 h3.title-tech {
     padding-top: 20px;
     background-image: url(./../img/stars.svg);
-    background-size: contain;
+    background-size: 325px;
     background-repeat: no-repeat;
-    background-position: 0 -10px;
+    background-position: 0px 0px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .list a {
