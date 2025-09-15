@@ -39,6 +39,7 @@ hr {
 
 summary {
     color: white;
+    padding-bottom: 15px;
 }
 
 a {
@@ -57,6 +58,10 @@ h3 {
 
 .list a {
     padding-left: 30px;
+}
+
+.social a {
+    padding-right: 15px;
 }
 
 
@@ -201,6 +206,7 @@ h3 {
 
 .title-social {
     color: #6d83d0;
+    padding-bottom: 15px;
 }
 
 
@@ -263,6 +269,6 @@ h3 {
 
 
 .it {
-    width: 15%;
-    height: 15%;
+    width: 10%;
+    height: 10%;
 }
