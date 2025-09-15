@@ -1,0 +1,243 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    margin: 0;
+}
+
+
+header {
+    flex-direction: row;
+    height: 40px;
+    background-color: #3161e0;
+    justify-content: space-around;
+    display: flex;
+    padding: 0.5rem 0;
+}
+
+footer {
+    background-color: #23272a;
+}
+
+
+h1 {
+    padding-top: 40px;
+    padding-bottom: 15px;
+}
+
+hr {
+    border-color: #373f55;
+    width: 65%;
+    margin: auto;
+}
+
+summary {
+    color: white;
+}
+
+a {
+    color: white;
+    text-decoration-line: none;
+}
+
+
+.intro {
+    background-color: #3161e0;
+    text-align: center;
+}
+
+.accedi {
+    border-radius: 20px;
+    padding: 8px 8px;
+    border: none;
+}
+
+
+.text-intro {
+    padding-left: 30%;
+    padding-right: 30%;
+    padding-bottom: 10px;
+}
+
+.button-intro {
+    text-align: center;
+    background-color: #3161e0;
+    padding-bottom: 100px;
+}
+
+.download {
+    border-radius: 20px;
+    padding: 8px 8px;
+    border: none;
+}
+
+.open-discord {
+    border-radius: 20px;
+    border: none;
+    padding: 10px 8px;
+    background-color: #23272a;
+    color: white;
+}
+
+.arrow {
+    font-size: 15px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    padding-right: 8%;
+    padding-left: 10%;
+    align-self: center;
+}
+
+.all {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.title {
+    text-align: left;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    background-color: blue;
+    width: 10%;
+    text-align: left;
+    margin-right: 55px;
+
+}
+
+.img {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(255, 0, 0);
+    margin-left: 55px;
+    padding: 100px 200px;
+
+}
+
+.chat {
+    margin-bottom: 100px;
+}
+
+.vocal {
+    margin-bottom: 100px;
+    background-color: #f6f6f6;
+}
+
+.people {
+    margin-bottom: 100px;
+}
+
+.vocal .text {
+    margin-left: 55px;
+}
+
+.vocal .img {
+    margin-right: 55px;
+}
+
+.tech {
+    background-color: #f6f6f6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tech-text {
+    text-align: center;
+}
+
+.title-tech {
+    text-align: center;
+}
+
+.button {
+    margin-bottom: 60px;
+}
+
+.mac {
+    border-radius: 20px;
+    padding: 8px 8px;
+    border: none;
+    background-color: #8ea1e1;
+    color: white;
+}
+
+
+
+.foot {
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.title-social {
+    color: #6d83d0;
+}
+
+
+.rec {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 20px;
+    padding: 8px 8px;
+    border: none;
+    margin-top: 20px;
+}
+
+.prodotto {
+    color: #6d83d0;
+    flex-direction: column;
+    display: flex;
+    padding-right: 90px;
+    padding-left: 190px;
+}
+
+.compagnia {
+    color: #6d83d0;
+    flex-direction: column;
+    padding-right: 90px;
+    display: flex;
+}
+
+.risorse {
+    color: #6d83d0;
+    flex-direction: column;
+    padding-right: 90px;
+    display: flex;
+}
+
+.norme {
+    color: #6d83d0;
+    flex-direction: column;
+    padding-right: 90px;
+    display: flex;
+}
+
+.rapid {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.dis {
+    padding-top: 25px;
+}
+
+.end {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 60px;
+}
