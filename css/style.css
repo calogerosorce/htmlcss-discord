@@ -162,7 +162,6 @@ h3.title-tech {
 
 .vocal {
     margin-top: 60px;
-    padding-bottom: 100px;
     background-color: #f6f6f6;
 }
 
@@ -287,4 +286,22 @@ h3.title-tech {
 .it {
     width: 10%;
     height: 10%;
+}
+
+.wave {
+    color: #f6f6f6;
+
+}
+
+.wave-top {
+    margin-top: -3rem;
+}
+
+.wave-botton {
+    rotate: 180deg;
+    margin-bottom: -2rem;
+}
+
+.wave-top-tech {
+    margin-bottom: -1rem;
 }
